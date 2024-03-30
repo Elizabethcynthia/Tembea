@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    box-shadow: 2px 2px 2px 1px;
+}
+
+header h1 span{
+    color: red;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+ul{
+    list-style: none;
+   }
+
+.nav_links ul{
+    display: flex;
+    gap: 28px;
+    
+}
+a{
+    color: green;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+a:hover{
+    color: blue;
+    
+}
+.homepage h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+   font-size: 100px;
+}
+.homepage{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0SLs_iY_kadLQcJqG27nBD9M8-JKcO7ehAw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
