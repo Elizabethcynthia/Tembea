@@ -46,3 +46,95 @@ a:hover{
     background-size: cover;
     height: 100vh;
 }
+
+.about{
+    display: flex;
+    gap: 50px;
+    padding: 10%;
+}
+
+.statement h3{
+   font-size: 30px;
+   color: blueviolet;
+}
+
+.statement p{
+    font-size: 20px;
+}
+
+#service{
+    padding: 20px;
+    margin: 5%;
+}
+#service h3{
+    text-align: center;
+    font-size: 30px;
+}
+#activities {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#activities tr{
+    background-color: #f2f2f2;
+}
+
+#activities tr:hover{
+    background-color: rgba(0,0,0,0.5); 
+    color: black;
+}
+
+#activities td{
+    border: 1px;
+    padding: 8px;
+    color: black;
+}
+
+#activities th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+.contact{
+    padding: 20px;
+    margin: 5%;
+}
+.telephone h3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.telephone p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.file{
+    display: flex;
+    justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+    border-collapse: collapse;
+    font-size: 35px;
+}
+
+.file tr{
+    background-color: aqua;
+}
+
+.file td{
+    border: 1px;
+    padding: 8px;
+}
+
+.file th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
